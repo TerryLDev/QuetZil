@@ -1,0 +1,90 @@
+/*
+Color pallete
+*/
+
+
+html {
+	font-family: "Roboto", Arial;
+}
+
+body {
+	margin-right: 150px;
+	margin-left: 150px;
+}
+
+#login {
+	margin: 10px 0;
+	background-color: #a4b5fc;
+	display: grid;
+	align-items: center;
+	grid: 40px / repeat(6, 1fr);
+	align-content: center;
+}
+
+#login a {
+	color:#000;
+	text-decoration: none;
+	font-size: 20px;
+	line-height: 100%;
+}
+
+#login img{
+	max-height: 20px;
+}
+
+.logo {
+	text-align: left;
+	padding: 10px;
+	grid-area: 1 / 1 / 1 / 1;
+}
+
+.signin {
+	grid-area: 1 / 5 / 1 / span 2;
+	text-align: center;
+	padding: 10px;
+	display: grid;
+	grid: 40px  / repeat(2, 1fr);
+}
+
+.login-button {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	grid-area: 1 / 1 / 1 / span 1;
+}
+
+.sign-up-button {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	grid-area: 1 / 2 / 1 / span 1;
+}
+
+#nav-bar {
+	display: grid;
+	grid: 40px / repeat(8, 1fr);
+	text-align: center;
+	align-items: center;
+	margin: 10px 50px;
+	text-align: center;
+}
+
+.search-box { 
+	grid-area: 1 / 1 / 1 / span 3;
+}
+
+.search-form {
+	display: grid;
+}
+
+.search {
+	grid-area: 1 / 1 / 1  / span 2; 
+	width: 100%;
+	border: solid 1px #000;
+}
+
+.search-submit-button {
+	grid-area: 1 / 3 / 1 / span 1;
+	text-align: center;
+	width: 100%;
+	background-color: #d0d7f2;
+	border: solid 1px #000;
+}
