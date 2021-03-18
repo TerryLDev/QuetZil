@@ -67,6 +67,16 @@ body {
 	text-align: center;
 }
 
+#nav-bar a {
+	text-decoration: none;
+	color:#000;
+	font-size: 16px;
+}
+
+#nav-bar a:hover {
+	text-decoration: underline;
+}
+
 .search-box { 
 	grid-area: 1 / 1 / 1 / span 3;
 }
@@ -79,6 +89,7 @@ body {
 	grid-area: 1 / 1 / 1  / span 2; 
 	width: 100%;
 	border: solid 1px #000;
+	font-size: 16px;
 }
 
 .search-submit-button {
@@ -87,4 +98,9 @@ body {
 	width: 100%;
 	background-color: #d0d7f2;
 	border: solid 1px #000;
+	font-size: 16px;
+}
+
+.feature-listings {
+	display: grid;
 }

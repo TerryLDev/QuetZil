@@ -1,0 +1,32 @@
+html {
+	font-family: "Roboto", Arial;
+}
+
+body {
+    display: grid;
+    grid-template-rows: 1fr 5fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+header {
+    grid-area: 1 / 1 / span 3 / span 3;
+    display: grid;
+    grid: 1fr / repeat(6, 1fr);
+}
+
+.logo {
+    grid-area: 1 / 1 / 1 span / 1 span;
+    max-height: 40px;
+}
+
+.login {
+    grid-area: 2 / 2 / span 1 / span 1;
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-around;
+    text-align: center;
+}
+
