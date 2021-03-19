@@ -2,7 +2,6 @@
 Color pallete
 */
 
-
 html {
 	font-family: "Roboto", Arial;
 }
@@ -108,5 +107,85 @@ body {
 }
 
 .feature-listings {
+	margin: 10px 50px;
+}
+
+.feature-listings h1 {
+	padding: 10px;
+	/* Might add a background color to the title of listing slider */
+}
+
+.image-slide { 
 	display: grid;
+	grid-template-rows: 250px 20px;
+	column-gap: 10px;
+	grid-auto-columns: 250px;
+	list-style-type: none;
+	align-items: center;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	visibility: hidden;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.image-slide:hover {
+	overflow-x: scroll;
+	overflow-y: hidden;
+	visibility: visible;
+}
+
+.image-slide li img {
+	visibility: visible;
+	list-style-type: none;
+	max-height: 200px;
+	border: 2px solid black;
+	background-color: lightgray;
+}
+
+.image-slide li p {
+	visibility: visible;
+	margin-right: auto;
+	margin-left: auto;
+	justify-content: center;
+}
+
+.image-slide-1 {
+	grid-area: 1 / 1 / span 2 / span 1
+}
+
+.image-slide-2 {
+	grid-area: 1 / 2 / span 2 / span 1
+}
+
+.image-slide-3 {
+	grid-area: 1 / 3 / span 2 / span 1
+}
+
+.image-slide-4 {
+	grid-area: 1 / 4 / span 2 / span 1
+}
+
+.image-slide-5 {
+	grid-area: 1 / 5 / span 2 / span 1
+}
+
+.image-slide-6 {
+	grid-area: 1 / 6 / span 2 / span 1
+}
+
+.image-slide-7 {
+	grid-area: 1 / 7 / span 2 / span 1
+}
+
+.image-slide-8 {
+	grid-area: 1 / 8 / span 2 / span 1
+}
+
+.image-slide-9 {
+	grid-area: 1 / 9 / span 2 / span 1
+}
+
+.image-slide-10 {
+	grid-area: 1 / 10 / span 2 / span 1
 }
