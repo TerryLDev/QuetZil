@@ -1,0 +1,70 @@
+.support-section {
+    margin: 10px auto;
+    max-width: 1000px;
+}
+
+.support-section article h1 {
+    font-size: 24px;
+    padding: 10px;
+	background-color: #66ccff;
+	color: black;
+	font-family: 'Lato', sans-serif;
+}
+
+.faq-page {
+    text-decoration: none;
+    color: #0099cc;
+}
+
+.faq-page:hover {
+    text-decoration: underline;
+}
+
+.form-box {
+    max-width: 410px;
+    border-radius: .5%;
+    background-color: #f0f0f0;
+    border: 5px solid #ccffcc;
+    padding: 10px;
+    display: grid;
+    grid: repeat(3, 24px) 3fr 24px / repeat(2, 200px);
+    column-gap: 10px;
+    row-gap: 10px;
+    justify-content: center;
+}
+
+.form-box textarea {
+    font-family: Arial;
+    resize: vertical;
+}
+
+.form-item-1 {
+    grid-area: 1 / 1 / span 1 / span 1;
+}
+
+.form-item-2 {
+    grid-area: 1 / 2 / span 1 / span 1;
+}
+
+.form-item-3 {
+    grid-area: 2 / 1 / span 1 / span 1;
+}
+
+.form-item-4 {
+    grid-area: 2 / 2 / span 1 / span 1;
+}
+
+.form-item-5 {
+    grid-area: 3 / 1 / span 1 / span 2;
+}
+
+.form-item-6 {
+    grid-area: 4 / 1 / span 1 / span 2;
+}
+
+.form-item-7 {
+    grid-area: 5 / 1 / span 1 / span 1;
+    background-color: #66ccff;
+	border: solid 1px #000;
+    font-family: "Roboto", Arial;
+}

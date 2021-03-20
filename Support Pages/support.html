@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+		<link href="../stylething.css" type="text/css" rel="stylesheet">
+        <link rel="stylesheet" href="supportstylesheet.css" type="text/css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+		<title>QuetZil</title>
+	</head>
+
+    <body>
+
+        <!-- Login function that will bring you to a new page for both sign up and login -->
+		<div id="login">
+
+			<div class="logo">
+				<a href="../index.html"><img src="../Pictures/Logo/Finished Logos/new-logo-combo.png" alt="logo"></a>
+			</div>
+
+			<div class="signin">
+				<a href="../Login pages/login.html" class="login-button">Login</a>
+				<a href="../Login pages/signup.html" class="sign-up-button">Sign Up</a>
+			</div>
+
+		</div>
+
+		<!-- Search for an item you are lookiung for and will have the logo next to the search bar -->
+		<div id="nav-bar">
+				
+			<form id="search" class="search-form search-box">
+				<input type="text" placeholder="Search" name="search" id="search" class="search">
+				<button type="submit" class="search-submit-button">Go</button>
+			</form>
+
+			<!-- quick access to the certain parts of the website like store page, home, feature listings, your watch list, and support page -->
+			<a href="../index.html" class="home-button">Home</a>
+			<a href="" class="store-page-button">Store Page</a>
+			<a href="" class="feature-button">Feature</a>
+			<a href="" class="watch-list-button">Watch List</a>
+			<a href="support.html" class="support-button">Support</a>
+
+		</div>
+
+		<hr>
+
+        <main>
+
+            <section class="support-section">
+
+                <article>
+                    <h1>QuetZil Support</h1>
+
+                    <p>QuestZil's support team is here to help with all your needs! Problems/issues can be related to a recent purchase, difficulty with a buyer or seller, or a general question about our services. Some issues might have an answer for it, and can be found on our <a class="faq-page" href="" target="_blank">FAQ page</a>.</p>
+                </article>
+
+                <form class="form-box">
+
+                    <input class="form-item-1" type="text" placeholder="Fist Name" id="first-name" required>
+
+                    <input class="form-item-2" type="text" placeholder="Last Name" id="last-name" required>
+
+                    <input class="form-item-3" type="email" placeholder="Email" id="email" required>
+
+                    <input class="form-item-4" type="number" placeholder="Order Number" id="order-num" optional>
+
+                    <label class="form-item-5" for="comment">Please add information about your issue:</label>
+
+                    <textarea class="form-item-6" id="comment" name="comment" rows="4" cols="50" placeholder="Comment" maxlength="500" required></textarea>
+
+                    <input class="form-item-7" type="submit" id="support-submit" value="Submit">
+                
+                </form>
+
+            </section>
+
+        </main>
+
+    </body>
+
+</html>
